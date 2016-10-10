@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+Schema::table('${1:table}', function (Blueprint \$table) {
+    \$table->${2:string(${3})};
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>lstable</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

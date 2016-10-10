@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$(function() {
+    $1 
+});
+]]></content>
+    <tabTrigger>$rd</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+</snippet>

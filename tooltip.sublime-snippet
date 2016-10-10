@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+data-toggle="tooltip${1}" data-placement="top${2}" title="Title${3}"
+]]></content>
+    <tabTrigger>ttip</tabTrigger>
+    <!-- <scope>source.php</scope> -->
+</snippet>

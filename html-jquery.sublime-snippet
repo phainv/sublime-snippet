@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+https://ajax.googleapis.com/ajax/libs/jquery/${1:2.2.1}/jquery.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>~cdnjq</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php,text.html(.basic)</scope>
+</snippet>

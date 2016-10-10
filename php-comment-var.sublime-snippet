@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+/** 
+ * @var ${1:string}
+ */
+]]></content>
+    <tabTrigger>//var</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

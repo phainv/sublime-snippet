@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$('${1:class}').${2:click}(function(${3:e}) {
+    ${4}
+});
+]]></content>
+    <tabTrigger>$bind</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+</snippet>

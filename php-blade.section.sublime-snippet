@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@section('${1:content}')
+${2:@parent}
+@endsection
+]]></content>
+    <tabTrigger>blsection</tabTrigger>
+    <!-- <scope>source.php</scope> -->
+</snippet>

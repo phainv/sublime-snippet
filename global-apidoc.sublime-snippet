@@ -1,0 +1,47 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @apiDefine ${1:group}Params
+ * 
+ * @apiParam {String} first_name First name
+ * @apiParam {String} last_name Last name
+ * @apiParam {String} email Email address
+ * @apiParam {String} password Password
+ */
+
+/**
+ * @api {GET} /${2:plural} List all ${2:plural}.
+ * @apiVersion 1.0.0
+ * @apiGroup ${1:group}
+ */
+
+/**
+ * @api {POST} /${2:plural} Create a new ${3:singular}.
+ * @apiVersion 1.0.0
+ * @apiGroup ${1:group}
+ *
+ * @apiUse ${1:group}Params
+ * @apiSampleRequest off
+ */
+
+/**
+ * @api {GET} /${2:plural}/:id Retrieve the ${3:singular}.
+ * @apiVersion 1.0.0
+ * @apiGroup ${1:group}
+ *
+ * @apiSampleRequest /${2:plural}/1
+ */
+
+/**
+ * @api {PUT} /${2:plural}/:id Update an ${3:singular}.
+ * @apiVersion 1.0.0
+ * @apiGroup ${1:group}
+ *
+ * @apiUse ${1:group}Params
+ * @apiSampleRequest off
+ */
+]]></content>
+    <tabTrigger>!apidoc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

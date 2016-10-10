@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+e.preventDefault();
+]]></content>
+    <tabTrigger>e.</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+</snippet>

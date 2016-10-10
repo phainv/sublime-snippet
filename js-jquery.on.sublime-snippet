@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$(${1:document}).on('${2:click}', '${3:class}', function(${4:e}) {
+    ${5}
+});
+]]></content>
+    <tabTrigger>onclick</tabTrigger>
+    <scope>source.js,source.js.embedded.html</scope>
+</snippet>

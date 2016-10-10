@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * 
+ * 
+ * @return 
+ */
+protected static function ${1:name}(${2:\$param})
+{
+    ${3}
+}
+]]></content>
+    <tabTrigger>prsfd</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

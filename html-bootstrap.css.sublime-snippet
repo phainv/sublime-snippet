@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>~cdnbscss</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php,text.html(.basic)</scope>
+</snippet>
